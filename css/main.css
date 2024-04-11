@@ -39,9 +39,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--bs-secondary);
-  margin: 20px;
+  margin:auto;
   color: #333;
-  padding-bottom: 0;
+  padding:0%;
    
 }  
 
@@ -163,6 +163,20 @@ background-color: #f1f1f1;
 #blogs  .card-img-top {
   width: 100%; 
   height: auto; 
+}
+
+
+
+/* contact page*/
+.form-group {
+  background-color: #f0f0f0; 
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.contact-image {
+  height:300px;
+  width: 100%; 
 }
 
 @keyframes jello {
